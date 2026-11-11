@@ -8,9 +8,9 @@
 }
 
 .meio{
-    padding: 50px;
+    padding: 50px 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
@@ -21,4 +21,22 @@
     width: 600px;
     height: 600px;
     padding: 50px;
+}
+
+.textinhaoinho h1{
+    font-size: 3rem;
+}
+
+.bnt-M{
+    display: flex;
+    all: unset;
+    padding: 16px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.4s;
+}
+
+.bnt-M:hover{
+    background-color: #94d645;
+    transform: translateX(-3px);  
 }
