@@ -8,9 +8,10 @@
 }
 
 body{
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cabe{
@@ -30,6 +31,10 @@ body{
 
 
 .menu{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -53,7 +58,7 @@ body{
     color: #94d645;
     }
 
-.bnt{
+.bnt-C{
     display: flex;
     all: unset;
     padding: 16px 30px;
@@ -64,8 +69,9 @@ body{
 }
 
 
-.bnt:hover{
+.bnt-C:hover{
     background-color: #94d645;
-    transform: translateY(-3px);    
+    transform: translateY(-4px);    
+    cursor: pointer;
 }
 

@@ -23,13 +23,36 @@
     padding: 50px;
 }
 
-.textinhaoinho h1{
-    font-size: 3rem;
+.textinhaoinho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
 }
+
+.textinhaoinho h1{
+    font-size: 4rem;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    }
 
 .bnt-M{
     display: flex;
     all: unset;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
     padding: 16px 30px;
     border: 1px solid black;
     border-radius: 10px;
@@ -37,6 +60,33 @@
 }
 
 .bnt-M:hover{
-    background-color: #94d645;
-    transform: translateX(-3px);  
+    background-color: #86c13e;
+    transform: translateX(-6px);  
+    cursor: pointer;
+}
+
+.servirrr{
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+    padding: 5px 45px;
+}
+
+.servirrr h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 485;
+    font-style: normal;
+    padding: 5px 25x;
+    background-color: #B9FF66;
+
+}
+
+
+
+.servirrr p{
+    width: 600px;
 }
